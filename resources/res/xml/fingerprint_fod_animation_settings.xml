@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/fingerprint_fod_animation_settings">
+    <com.android.settingslib.widget.RadioButtonPreference android:title="@string/fingerprint_fod_animation_style_1" android:key="style_1"/>
+    <com.android.settingslib.widget.RadioButtonPreference android:title="@string/fingerprint_fod_animation_style_2" android:key="style_2"/>
+    <com.android.settingslib.widget.RadioButtonPreference android:title="@string/fingerprint_fod_animation_style_3" android:key="style_3" app:allowDividerBelow="true"/>
+</PreferenceScreen>

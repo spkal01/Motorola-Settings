@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:key="vzw_mobile_network_pref_screen">
+    <PreferenceCategory android:key="enabled_state_container">
+        <Preference android:persistent="false" android:title="@string/pref_network_extenders" android:key="button_vzw_network_ext" android:order="481" app:controller="com.motorola.settings.network.vzw.VzwNetworkExtendersPreferenceController">
+            <intent android:targetPackage="com.motorola.carriersettingsext" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.carriersettingsext.femtocell.ClosedSubscriberGroupActivity"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

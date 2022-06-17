@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="apn_roaming_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv4/IPv6</item>
+    </array>
+    <array name="apn_roaming_protocol_values">
+        <item>IP</item>
+        <item>IPV4V6</item>
+    </array>
+    <array name="carrier_custom_pnt_5g">
+        <item>@string/network_5G</item>
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_5g">
+        <item>@string/network_5G</item>
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_values">
+        <item>26</item>
+        <item>9</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_values">
+        <item>26</item>
+        <item>9</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>9</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>9</item>
+    </array>
+</resources>

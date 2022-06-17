@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall">
+    <RelativeLayout android:id="@+id/header" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="36dp" android:paddingStart="40dp" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+        <TextView android:textAppearance="@android:style/WindowTitleBackground.DeviceDefault" android:textColor="?android:attr/textColorPrimary" android:ellipsize="marquee" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="2dp" android:layout_marginStart="30dp" android:layout_toStartOf="@+id/expand_indicator" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/expand_indicator" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_expand" android:contentDescription="@null" android:paddingStart="16dp" android:paddingEnd="8dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/data" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

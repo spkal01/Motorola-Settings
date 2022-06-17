@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01" android:paddingLeft="25dp" android:paddingTop="15dp" android:paddingRight="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ap_startup_warning_text"/>
+        <CheckBox android:id="@+id/checkbox_warn_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-7dp" android:text="@string/wifi_ap_startup_warn_again"/>
+    </LinearLayout>
+</ScrollView>

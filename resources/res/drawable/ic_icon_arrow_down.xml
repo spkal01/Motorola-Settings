@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="30dp" android:width="30dp" android:viewportWidth="30" android:viewportHeight="30">
+    <path android:fillColor="@color/settings_arrow_spinner_icon_bg" android:pathData="M15,15m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="@color/settings_arrow_spinner_icon" android:pathData="M9.2625,10.7375l5.7375,5.725l5.7375,-5.725l1.7625,1.7625l-7.5,7.5l-7.5,-7.5z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucHeaderTextColor="@color/fingerprint_title_color" app:sucUsePartnerResource="false" app:sudDescriptionTextColor="@color/fingerprint_description_color" style="?attr/fingerprint_layout_theme">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/fingerprint_enrolling_finish_content_margin_vertical" style="@style/SudContentFrame">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/FingerprintFinishLayout">
+            <com.google.android.setupdesign.view.FillContentLayout android:gravity="center" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="@dimen/fingerprint_progress_bar_max_size" android:layout_height="@dimen/fingerprint_progress_bar_max_size">
+                <ImageView android:id="@+id/fingerprint_in_app_indicator" android:padding="7dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/fingerprint_enroll_finish" android:contentDescription="@android:string/config_ethernet_iface_regex" android:importantForAccessibility="no" style="@style/SudContentIllustration"/>
+            </com.google.android.setupdesign.view.FillContentLayout>
+            <TextView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.FingerprintErrorText"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

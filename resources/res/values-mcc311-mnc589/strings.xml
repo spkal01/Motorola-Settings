@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enhanced_4g_lte_mode_summary">@string/hd_voice</string>
+    <string name="enhanced_4g_lte_mode_title">@string/enhanced_calling</string>
+    <string name="enhanced_4g_lte_mode_title_variant">@string/enhanced_calling</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/color_temperature_title" app:iconSpaceReserved="false">
+        <com.motorola.settings.widget.ExtendedLabeledSeekBarPreference android:layout="@layout/color_temperature_labeled_seekbar" android:selectable="true" android:key="color_temperature" app:allowDividerAbove="false" app:iconSpaceReserved="false" app:textEnd="@string/color_temperature_label_warm" app:textStart="@string/color_temperature_label_cool"/>
+        <com.android.settingslib.widget.FooterPreference android:title="@string/color_temperature_disclaimer" android:selectable="false" app:searchable="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

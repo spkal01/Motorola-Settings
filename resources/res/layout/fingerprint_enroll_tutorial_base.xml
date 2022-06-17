@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucHeaderTextColor="@color/fingerprint_title_color" app:sucUsePartnerResource="false" app:sudDescriptionTextColor="@color/fingerprint_description_color" style="?attr/fingerprint_layout_theme">
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.google.android.setupdesign.view.FillContentLayout android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="@dimen/fingerprint_find_sensor_graphic_size" android:layout_height="@dimen/fingerprint_find_sensor_graphic_size" android:layout_marginTop="34dp">
+                    <include android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/fingerprint_enroll_find_sensor_graphic"/>
+                </com.google.android.setupdesign.view.FillContentLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.google.android.setupdesign.GlifLayout>

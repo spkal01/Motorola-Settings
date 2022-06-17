@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.CollapsingToolbar.Settings" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.motorola.settings.widget.FreeCardView android:layout_gravity="center_horizontal" android:id="@+id/preview_dynamic_area" android:layout_width="match_parent" android:layout_height="440dp" android:contentDescription="@string/preview_pager_content_description" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:fBottomLeftRadius="@dimen/preview_card_radius_big" app:fBottomRightRadius="@dimen/preview_card_radius_big">
+            <ImageView android:id="@+id/wallpaper_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <FrameLayout android:id="@+id/preview_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.motorola.settings.widget.FreeCardView>
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="96dp" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+            <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@+id/tab_layout" android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="110dp" app:tabGravity="1" app:tabIndicatorHeight="0dp" app:tabMode="1" app:tabRippleColor="@android:color/transparent"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

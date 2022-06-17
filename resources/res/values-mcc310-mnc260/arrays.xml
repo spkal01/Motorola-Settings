@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carrier_custom_pnt_5g">
+        <item>@string/network_5G_on</item>
+        <item>@string/network_lte_3G_2G</item>
+        <item>@string/network_lte_3G</item>
+        <item>@string/network_2G_only</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_sa">
+        <item>@string/network_5G_on</item>
+        <item>@string/network_5g_lte</item>
+        <item>@string/network_lte_3G_2G</item>
+        <item>@string/network_lte_3G</item>
+        <item>@string/network_2G_only</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_sa_values">
+        <item>26</item>
+        <item>24</item>
+        <item>9</item>
+        <item>12</item>
+        <item>1</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_values">
+        <item>26</item>
+        <item>9</item>
+        <item>12</item>
+        <item>1</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_lte_on</item>
+        <item>@string/network_lte_3G</item>
+        <item>@string/network_2G_only</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>9</item>
+        <item>12</item>
+        <item>1</item>
+    </array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_carrier_needs_custom_non_5g_pnt">true</bool>
+    <bool name="config_show_meid_in_hex_and_decimal_bool">true</bool>
+    <bool name="ftr_5717_usc_data_roam_ui">true</bool>
+</resources>

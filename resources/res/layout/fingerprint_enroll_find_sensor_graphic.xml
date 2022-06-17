@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/fingerprint_find_sensor_graphic_size" android:layout_height="@dimen/fingerprint_find_sensor_graphic_size">
+    <com.motorola.settings.biometrics.fingerprint.MotoLottieAnimView android:id="@+id/fingerprint_sensor_location_animation" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+</FrameLayout>

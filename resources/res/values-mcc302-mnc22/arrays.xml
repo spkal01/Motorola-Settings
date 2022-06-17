@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carrier_custom_pnt_5g">
+        <item>@string/network_5G</item>
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_values">
+        <item>26</item>
+        <item>9</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_4G</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>9</item>
+    </array>
+</resources>

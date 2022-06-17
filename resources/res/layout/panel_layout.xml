@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/panel_container" android:background="@drawable/settings_panel_rounded_top_corner_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/panel_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_panel_title_margin" android:layout_marginBottom="@dimen/settings_panel_title_margin" android:layout_marginStart="@dimen/settings_panel_title_margin" android:layout_marginEnd="@dimen/settings_panel_title_margin">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/title_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp">
+                <ImageView android:id="@+id/title_icon" android:layout_width="@dimen/output_switcher_panel_icon_size" android:layout_height="@dimen/output_switcher_panel_icon_size"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24sp" android:textColor="?android:attr/textColorPrimary" android:ellipsize="end" android:id="@+id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:maxLines="1" android:fontFamily="sans-serif-reqular"/>
+                <TextView android:textSize="14sp" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/header_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-reqular"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="24sp" android:textColor="?android:attr/textColorPrimary" android:gravity="center" android:id="@+id/panel_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_panel_title_margin" android:layout_marginBottom="@dimen/settings_panel_title_margin" android:fontFamily="sans-serif-reqular"/>
+        <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="1dp" android:indeterminate="true" android:minHeight="1dp" style="@style/TrimmedHorizontalProgressBar"/>
+        <include android:id="@+id/header_divider" layout="@layout/horizontal_divider"/>
+        <include layout="@layout/panel_slice_list"/>
+        <include android:id="@+id/footer_divider" android:visibility="gone" layout="@layout/horizontal_divider"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/see_more" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/see_more" android:layout_marginStart="12dp" style="@android:style/Animation.VoiceInteractionSession"/>
+            <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <Button android:id="@+id/done" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/done" android:layout_marginEnd="12dp" style="@android:style/Animation.VoiceInteractionSession"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

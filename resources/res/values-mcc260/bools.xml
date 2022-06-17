@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_hide_plmn_forbidden_string">false</bool>
+    <bool name="config_hide_ratinfo">true</bool>
+</resources>

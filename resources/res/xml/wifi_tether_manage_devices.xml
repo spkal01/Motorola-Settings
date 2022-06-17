@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/wifi_tether_manage_devices_title">
+    <Preference android:title="@string/wifi_tether_allowed_devices_title" android:key="wifi_tether_allowed_devices" android:fragment="com.motorola.settings.wifi.tether.WifiTetherAllowedDevices"/>
+    <ListPreference android:title="@string/wifi_tether_device_limit_title" android:key="wifi_tether_device_limit" android:summary="@string/wifi_tether_device_limit_summary"/>
+    <com.motorola.settings.wifi.tether.WifiProgressCategory android:title="@string/wifi_tether_connected_devices_title" android:key="wifi_tether_connected_devices"/>
+</PreferenceScreen>

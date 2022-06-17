@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/adaptive_connectivity_title">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@string/adaptive_connectivity_summary" app:searchable="false"/>
+    <com.motorola.settings.widget.ExtendedIllustrationPreference android:key="adaptive_connectivity_header" app:lottie_rawRes="@drawable/ic_enhanced_connectivity" app:searchable="false"/>
+    <com.android.settingslib.widget.MainSwitchPreference android:title="@string/adaptive_connectivity_title" android:key="adaptive_connectivity" app:controller="com.android.settings.network.AdaptiveConnectivityTogglePreferenceController"/>
+</PreferenceScreen>

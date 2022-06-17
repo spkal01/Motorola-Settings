@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:name="seekbar_thumb_unpressed_to_pressed" android:height="18dp" android:width="18dp" android:viewportWidth="18" android:viewportHeight="18" android:opticalInsetLeft="6dp" android:opticalInsetRight="6dp">
+    <group android:name="thumb_0" android:translateX="9" android:translateY="9">
+        <path android:name="thumb_path_0" android:fillColor="@android:color/white" android:pathData="M 0.0,-6.0 c 3.3137084988,0.0 6.0,2.6862915012 6.0,6.0 c 0.0,3.3137084988 -2.6862915012,6.0 -6.0,6.0 c -3.3137084988,0.0 -6.0,-2.6862915012 -6.0,-6.0 c 0.0,-3.3137084988 2.6862915012,-6.0 6.0,-6.0 Z" android:strokeColor="@color/color_temperature_tick_stroke_color" android:strokeWidth="1"/>
+    </group>
+</vector>

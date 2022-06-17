@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="44dp" android:width="44dp" android:viewportWidth="44" android:viewportHeight="44">
+    <path android:fillColor="@color/usb_bottom_charging_bg" android:pathData="M25.67,14L24,14L24,12L20,12L20,14L18.33,14C17.6,14 17,14.6 17,15.33L17,30.66C17,31.4 17.6,32 18.33,32L25.66,32C26.4,32 27,31.4 27,30.67L27,15.33C27,14.6 26.4,14 25.67,14ZM21,30L21,24.5L19,24.5L23,17L23,22.5L25,22.5L21,30Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0.12" android:fillType="0"/>
+    <group>
+        <clip-path android:pathData="M25.67,14L24,14L24,12L20,12L20,14L18.33,14C17.6,14 17,14.6 17,15.33L17,30.66C17,31.4 17.6,32 18.33,32L25.66,32C26.4,32 27,31.4 27,30.67L27,15.33C27,14.6 26.4,14 25.67,14ZM21,30L21,24.5L19,24.5L23,17L23,22.5L25,22.5L21,30Z"/>
+        <path android:fillColor="@color/usb_bottom_charging" android:pathData="M17,12h10v20h-10z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    </group>
+</vector>

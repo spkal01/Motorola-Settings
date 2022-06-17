@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <view android:id="@+id/frame" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.android.settings.TouchBlockingFrameLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@android:style/WindowTitleBackground.DeviceDefault" android:textSize="12sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/font_scale_preview_text_headline"/>
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textSize="19sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/font_size_preview_text_title" android:lineHeight="27sp"/>
+            <TextView android:textAppearance="@android:style/Preference.DeviceDefault.DialogPreference.YesNoPreference" android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/font_size_preview_text_body" android:lineHeight="24sp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+                <TextView android:textSize="14sp" android:textColor="@color/settings_floating_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size_preview_button_reply"/>
+                <TextView android:textSize="14sp" android:textColor="@color/settings_floating_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_size_preview_button_mark" android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </view>
+</androidx.core.widget.NestedScrollView>

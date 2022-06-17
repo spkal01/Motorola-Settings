@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:key="tmo_mobile_network_pref_screen">
+    <PreferenceCategory android:key="enabled_state_container">
+        <Preference android:title="@string/data_counter" android:key="tmo_data_counter_key" android:order="141" app:controller="com.motorola.settings.network.tmo.TmoDataCounterPreferenceController">
+            <intent android:action="com.motorola.lifetimedata.DISPLAY_DATA_COUNTER"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="calling_category">
+        <Preference android:title="@string/pref_wifi_calling" android:key="tmo_wifi_calling_key" android:order="21" app:controller="com.motorola.settings.network.tmo.TmoWiFiCallingPreferenceController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/tmo_toggleVoNR_title" android:key="tmo_toggleVoNR" android:summary="@string/tmo_toggleVoNR_summary" android:order="22" app:controller="com.motorola.settings.network.tmo.TmoVoNRPreferenceController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/tmo_toggle2g_title" android:key="tmo_toggle2g" android:order="23" app:controller="com.motorola.settings.network.tmo.Tmo2GToggleEnablerController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/tmo_toggle5g_title" android:key="tmo_toggle5g" android:order="23" app:controller="com.motorola.settings.network.tmo.Tmo5GToggleEnablerController"/>
+    </PreferenceCategory>
+</PreferenceScreen>

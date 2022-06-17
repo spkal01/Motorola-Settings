@@ -1,0 +1,11 @@
+package com.android.settings.accessibility;
+
+import android.content.Context;
+import com.android.settingslib.search.SearchIndexableRaw;
+import java.util.List;
+
+public class AccessibilitySearchFeatureProviderImpl implements AccessibilitySearchFeatureProvider {
+    public List<SearchIndexableRaw> getSearchIndexableRawData(Context context) {
+        return null;
+    }
+}

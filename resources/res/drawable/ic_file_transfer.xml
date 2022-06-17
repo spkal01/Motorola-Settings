@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="44dp" android:width="44dp" android:viewportWidth="44" android:viewportHeight="44">
+    <path android:fillColor="@color/usb_bottom_icon_bg" android:pathData="M22,0L22,0A22,22 0,0 1,44 22L44,22A22,22 0,0 1,22 44L22,44A22,22 0,0 1,0 22L0,22A22,22 0,0 1,22 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="@color/usb_bottom_icon" android:pathData="M24,12L16,12C14.9,12 14.01,12.9 14.01,14L14,30C14,31.1 14.89,32 15.99,32L28,32C29.1,32 30,31.1 30,30L30,18L24,12ZM28,30L16,30L16,14L23,14L23,19L28,19L28,30ZM18,25.01L19.41,26.42L21,24.84L21,29L23,29L23,24.84L24.59,26.43L26,25.01L22.01,21L18,25.01Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enhanced_4g_lte_mode_title">مكالمات VoLTE</string>
+    <string name="wfc_disclaimer_location_desc_text">قد يتم إرسال معلومات الموقع الخاصة بك إلى Google وإلى موفر الشبكة للسماح بإجراء مكالمات عبر Wi-Fi.</string>
+</resources>

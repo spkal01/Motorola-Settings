@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_3G">@string/network_3G_2G_automatic_with_or</string>
+    <string name="network_4G">@string/network_4G_3G_2G_automatic_with_or</string>
+</resources>

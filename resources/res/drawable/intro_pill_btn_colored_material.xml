@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="@color/fingerprint_intro_primary_button_ripple_background">
+    <item android:drawable="@drawable/intro_pill_btn_primary_mtrl_shape"/>
+</ripple>

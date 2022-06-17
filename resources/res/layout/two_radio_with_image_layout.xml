@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="?android:attr/listPreferredItemPaddingStart">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/show_button_frame" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:layout_weight="1" android:layout_marginEnd="24dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_navigation_show" android:adjustViewBounds="true"/>
+        <RadioButton android:textAppearance="?android:attr/textAppearanceListItem" android:textSize="16sp" android:id="@+id/show_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/show_navigation_bar"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/hide_button_frame" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:layout_weight="1">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_navigation_hide" android:adjustViewBounds="true"/>
+        <RadioButton android:textAppearance="?android:attr/textAppearanceListItem" android:textSize="16sp" android:id="@+id/hide_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/hide_navigation_bar"/>
+    </LinearLayout>
+</LinearLayout>

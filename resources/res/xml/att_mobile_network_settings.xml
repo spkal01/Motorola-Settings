@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:key="att_mobile_network_pref_screen">
+    <PreferenceCategory android:key="enabled_state_container">
+        <SwitchPreference android:persistent="false" android:title="@string/att_toggle2g_data_title" android:key="att_toggle2g_data" android:summary="@string/att_toggle2g_data_summary" android:order="482" app:controller="com.motorola.settings.network.att.AttDisable2GController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/mobile_diagnostics" android:key="mobile_network_diagnostics" android:order="483" app:controller="com.motorola.settings.network.att.AttMobileNetworkDiagnosticsController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/carrier_toggle5g_title" android:key="carrier_5g_toggle" android:summary="@string/carrier_toggle5g_summary" android:order="484" app:controller="com.motorola.settings.network.att.Att5GSAModeController"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="calling_category">
+        <com.android.settings.widget.PrimarySwitchPreference android:title="@string/pref_wifi_calling" android:key="toggle_wifi_calling" android:order="21" app:controller="com.motorola.settings.network.att.AttWfcPreferenceController"/>
+    </PreferenceCategory>
+</PreferenceScreen>

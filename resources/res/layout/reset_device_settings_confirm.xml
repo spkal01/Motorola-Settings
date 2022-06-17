@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="12dp" android:layout_weight="1">
+        <TextView android:textAppearance="@style/TextAppearance.PreferenceTitle.SettingsLib" android:id="@+id/reset_device_settings_confirmation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_device_settings_confirmation"/>
+    </androidx.core.widget.NestedScrollView>
+    <Button android:gravity="center" android:layout_gravity="end" android:id="@+id/execute_device_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="12dp" android:text="@string/reset_device_settings_title" android:layout_marginEnd="@dimen/reset_button_margin_end" style="@style/ActionPrimaryButton"/>
+</LinearLayout>

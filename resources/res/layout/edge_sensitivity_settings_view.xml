@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/edge_sensitivity_settings_footer" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeight">
+    <com.android.settings.widget.LabeledSeekBar android:id="@+id/edge_sensitivity_seek_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="70dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" style="@android:style/Animation.LockScreen"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="30dp" android:layout_marginEnd="30dp">
+        <TextView android:id="@+id/seek_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/low_label"/>
+        <TextView android:gravity="center" android:id="@+id/seek_text_2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/medium_label" android:layout_weight="1"/>
+        <TextView android:id="@+id/seek_text_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/high_label"/>
+    </LinearLayout>
+    <TextView android:id="@+id/edge_sensitivity_settings_footer1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/edge_sensitivity_footer_message1" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+    <TextView android:id="@+id/edge_sensitivity_settings_footer2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/edge_sensitivity_footer_message2" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+</LinearLayout>

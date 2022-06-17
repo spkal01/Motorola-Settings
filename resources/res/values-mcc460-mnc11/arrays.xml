@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carrier_custom_pnt_5g">
+        <item>@string/network_5G_recommended</item>
+        <item>@string/network_4G_pure</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </array>
+    <array name="carrier_custom_pnt_5g_values">
+        <item>27</item>
+        <item>10</item>
+        <item>7</item>
+        <item>61</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_4G</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>10</item>
+        <item>7</item>
+        <item>61</item>
+    </array>
+</resources>

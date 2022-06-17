@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carrier_custom_pnt_non_5g">
+        <item>@string/network_lte</item>
+        <item>@string/network_global</item>
+    </array>
+    <array name="carrier_custom_pnt_non_5g_values">
+        <item>8</item>
+        <item>10</item>
+    </array>
+</resources>

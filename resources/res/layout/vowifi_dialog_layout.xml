@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+    <TextView android:textAppearance="@style/TextAppearance.info_value" android:layout_gravity="center_vertical" android:id="@+id/vowifi_dialog_textview" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vowifi_dialog_message"/>
+    <CheckBox android:id="@+id/dont_show_it_again_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vowifi_dialog_checkbox_text"/>
+</LinearLayout>

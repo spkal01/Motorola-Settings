@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/one" android:drawable="@drawable/enrollment_fingerprint_isolated_01" app:state_one="true"/>
+    <item android:id="@+id/two" android:drawable="@drawable/enrollment_fingerprint_isolated_02" app:state_two="true"/>
+    <item android:id="@+id/three" android:drawable="@drawable/enrollment_fingerprint_isolated_03" app:state_three="true"/>
+    <item android:id="@+id/four" android:drawable="@drawable/enrollment_fingerprint_isolated_04" app:state_four="true"/>
+    <item android:id="@+id/five" android:drawable="@drawable/enrollment_fingerprint_isolated_05" app:state_five="true"/>
+    <item android:id="@+id/six" android:drawable="@drawable/enrollment_fingerprint_isolated_06" app:state_six="true"/>
+    <item android:id="@+id/seven" android:drawable="@drawable/enrollment_fingerprint_isolated_07" app:state_seven="true"/>
+    <item android:id="@+id/eight" android:drawable="@drawable/enrollment_fingerprint_isolated_08" app:state_eight="true"/>
+    <item android:id="@+id/nine" android:drawable="@drawable/enrollment_fingerprint_isolated_09" app:state_nine="true"/>
+    <item android:id="@+id/ten" android:drawable="@drawable/enrollment_fingerprint_isolated_10" app:state_ten="true"/>
+    <item android:id="@+id/eleven" android:drawable="@drawable/enrollment_fingerprint_isolated_11" app:state_eleven="true"/>
+    <item android:id="@+id/twelve" android:drawable="@drawable/enrollment_fingerprint_isolated_12" app:state_twelve="true"/>
+    <item android:id="@+id/thirteen" android:drawable="@drawable/enrollment_fingerprint_isolated_13" app:state_thirteen="true"/>
+    <item android:id="@+id/fourteen" android:drawable="@drawable/enrollment_fingerprint_isolated_14" app:state_fourteen="true"/>
+    <item android:id="@+id/fifteen" android:drawable="@drawable/enrollment_fingerprint_isolated_15" app:state_fifteen="true"/>
+    <item android:id="@+id/sixteen" android:drawable="@drawable/enrollment_fingerprint_isolated_16" app:state_sixteen="true"/>
+    <item android:id="@+id/seventeen" android:drawable="@drawable/enrollment_fingerprint_isolated_17" app:state_seventeen="true"/>
+    <item android:id="@+id/eighteen" android:drawable="@drawable/enrollment_fingerprint_isolated_18" app:state_eighteen="true"/>
+    <item android:id="@+id/nineteen" android:drawable="@drawable/enrollment_fingerprint_isolated_19" app:state_nineteen="true"/>
+    <item android:id="@+id/twenty" android:drawable="@drawable/enrollment_fingerprint_isolated_20" app:state_twenty="true"/>
+    <item android:id="@+id/zero" android:drawable="@drawable/enrollment_fingerprint_isolated"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_01" android:toId="@+id/one" android:fromId="@+id/zero"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_02" android:toId="@+id/two" android:fromId="@+id/one"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_03" android:toId="@+id/three" android:fromId="@+id/two"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_04" android:toId="@+id/four" android:fromId="@+id/three"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_05" android:toId="@+id/five" android:fromId="@+id/four"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_06" android:toId="@+id/six" android:fromId="@+id/five"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_07" android:toId="@+id/seven" android:fromId="@+id/six"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_08" android:toId="@+id/eight" android:fromId="@+id/seven"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_09" android:toId="@+id/nine" android:fromId="@+id/eight"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_10" android:toId="@+id/ten" android:fromId="@+id/nine"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_11" android:toId="@+id/eleven" android:fromId="@+id/ten"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_12" android:toId="@+id/twelve" android:fromId="@+id/eleven"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_13" android:toId="@+id/thirteen" android:fromId="@+id/twelve"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_14" android:toId="@+id/fourteen" android:fromId="@+id/thirteen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_15" android:toId="@+id/fifteen" android:fromId="@+id/fourteen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_16" android:toId="@+id/sixteen" android:fromId="@+id/fifteen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_17" android:toId="@+id/seventeen" android:fromId="@+id/sixteen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_18" android:toId="@+id/eighteen" android:fromId="@+id/seventeen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_19" android:toId="@+id/nineteen" android:fromId="@+id/eighteen"/>
+    <transition android:drawable="@drawable/enrollment_fingerprint_fill_in_20" android:toId="@+id/twenty" android:fromId="@+id/nineteen"/>
+</animated-selector>

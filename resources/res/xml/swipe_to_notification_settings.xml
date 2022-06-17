@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/fingerprint_gesture_screen_title" android:key="gesture_swipe_down_fingerprint_screen">
+    <com.motorola.settings.widget.ExtendedIllustrationPreference android:key="gesture_swipe_down_fingerprint_video" app:lottie_fallbackRes="@drawable/ic_img_swipe_fingerprint" app:lottie_rawRes="@raw/lottie_swipe_fingerprint" app:searchable="false"/>
+    <SwitchPreference android:title="@string/fingerprint_swipe_for_notifications_title" android:key="gesture_swipe_down_fingerprint" android:summary="@string/fingerprint_swipe_for_notifications_summary" app:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" app:keywords="@string/keywords_gesture"/>
+</PreferenceScreen>

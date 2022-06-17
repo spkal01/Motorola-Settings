@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/wifi_tether_allowed_devices_title">
+    <CheckBoxPreference android:title="@string/wifi_tether_allow_all_devices" android:key="wifi_tether_allow_all_devices"/>
+    <Preference android:title="@string/wifi_tether_add_allowed_device" android:key="wifi_tether_add_allowed_device"/>
+    <com.motorola.settings.wifi.tether.WifiProgressCategory android:title="@string/wifi_tether_allowed_devices_detail" android:key="wifi_tether_allowed_devices_list"/>
+</PreferenceScreen>

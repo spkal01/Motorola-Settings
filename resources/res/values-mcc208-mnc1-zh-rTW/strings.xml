@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfc_disclaimer_location_desc_text">您的位置資訊可能會傳送至 Google 及您的網路供應商，以允許進行 Wi-Fi 通話。</string>
+</resources>

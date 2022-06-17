@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/device_details_title">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:selectable="false" android:key="bluetooth_device_header" app:allowDividerBelow="true" app:searchable="false"/>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/advanced_bt_entity_header" android:selectable="false" android:key="advanced_bluetooth_device_header" app:allowDividerBelow="true" app:controller="com.android.settings.bluetooth.AdvancedBluetoothDetailsHeaderController" app:searchable="false"/>
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="action_buttons" app:allowDividerBelow="true"/>
+    <com.android.settings.applications.SpacePreference android:layout_height="0dp" app:allowDividerAbove="true"/>
+    <com.android.settings.slices.SlicePreference android:key="bt_device_slice" app:allowDividerAbove="true" app:allowDividerBelow="true" app:controller="com.android.settings.slices.BlockingSlicePrefController"/>
+    <PreferenceCategory android:key="device_companion_apps"/>
+    <PreferenceCategory android:key="bluetooth_profiles"/>
+    <PreferenceCategory android:key="lhdc_option" app:isPreferenceVisible="false">
+        <com.motorola.settings.development.bluetooth.BluetoothLHDCArDialogPreference android:title="@string/bluetooth_enable_a2dp_codec_lhdc_ar_effect" android:key="bluetooth_enable_a2dp_codec_lhdc_ar_effect" android:dialogTitle="@string/bluetooth_enable_a2dp_codec_lhdc_ar_effect_dialog_title" android:positiveButtonText="" android:negativeButtonText="@string/dlg_ok" android:dialogLayout="@layout/bluetooth_audio_lhdc_ar_dialog"/>
+        <com.motorola.settings.development.bluetooth.BluetoothLHDCQualityDialogPreference android:title="@string/bluetooth_select_a2dp_codec_lhdc_playback_quality" android:key="bluetooth_select_a2dp_lhdc_playback_quality" android:dialogTitle="@string/bluetooth_select_a2dp_codec_lhdc_playback_quality_dialog_title" android:positiveButtonText="" android:negativeButtonText="@string/dlg_ok" android:dialogLayout="@layout/bluetooth_audio_lhdc_quality_dialog"/>
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference android:selectable="false" android:key="device_details_footer" app:controller="com.android.settings.bluetooth.BluetoothDetailsMacAddressController" app:searchable="false"/>
+</PreferenceScreen>

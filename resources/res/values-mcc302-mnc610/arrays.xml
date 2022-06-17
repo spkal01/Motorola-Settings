@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="apn_roaming_protocol_entries">
+        <item>IPv4</item>
+    </array>
+    <array name="apn_roaming_protocol_values">
+        <item>IP</item>
+    </array>
+</resources>

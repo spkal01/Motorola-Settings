@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="center_horizontal" android:height="288dp" android:width="288dp" android:drawable="@drawable/manage_applications_circle_transparent"/>
+    <item android:gravity="center_horizontal" android:id="@+id/animation" android:height="288dp" android:width="288dp">
+        <animation-list android:oneshot="false">
+            <item android:duration="500" android:drawable="@drawable/endless_applications_header_preview_01"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_02"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_03"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_04"/>
+            <item android:duration="3000" android:drawable="@drawable/endless_applications_header_preview_05"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_04"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_03"/>
+            <item android:duration="100" android:drawable="@drawable/endless_applications_header_preview_02"/>
+            <item android:duration="500" android:drawable="@drawable/endless_applications_header_preview_01"/>
+        </animation-list>
+    </item>
+</layer-list>

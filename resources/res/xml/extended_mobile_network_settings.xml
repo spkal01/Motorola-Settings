@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:key="extended_mobile_network_pref_screen">
+    <PreferenceCategory android:key="enabled_state_container">
+        <SwitchPreference android:persistent="false" android:title="@string/show_operator_name" android:key="button_display_eons_key" android:summary="@string/display_operator_name" android:order="21" app:controller="com.motorola.settings.network.EonsController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/title_domestic_roaming" android:key="button_domestic_roaming" android:order="22" app:controller="com.motorola.settings.network.DomesticRoamingController"/>
+        <SwitchPreference android:persistent="false" android:title="@string/title_international_roaming" android:key="button_international_roaming" android:order="22" app:controller="com.motorola.settings.network.InternationalRoamingController"/>
+        <Preference android:title="@string/sim_preferences_title" android:key="button_moto_sim_preferences" android:summary="@string/sim_preferences_summary" android:order="23" app:controller="com.motorola.settings.network.MotoSimPreferencesController"/>
+        <SwitchPreference android:title="@string/moto_nr_title" android:key="moto_nr_enable_key" android:order="236" app:controller="com.motorola.settings.network.NrPreferenceController"/>
+        <SwitchPreference android:title="@string/moto_smart_5g_title" android:key="moto_smart_5g_key" android:summary="@string/moto_smart_5g_summary" android:order="237" android:dependency="moto_nr_enable_key" app:controller="com.motorola.settings.network.Smart5gPreferenceController"/>
+        <SwitchPreference android:title="@string/moto_nr_mode_title" android:key="moto_nr_mode_key" android:summary="@string/moto_nr_mode_summary" android:order="238" android:dependency="moto_nr_enable_key" app:controller="com.motorola.settings.network.NrModePreferenceController"/>
+        <SwitchPreference android:title="@string/moto_vonr_title" android:key="moto_vonr_enable_key" android:order="239" android:dependency="moto_nr_mode_key" app:controller="com.motorola.settings.network.VoNRPreferenceController"/>
+    </PreferenceCategory>
+    <Preference android:persistent="false" android:title="@string/subsidy_unlock_preference_title" android:key="subsidy_sim_unlock" android:order="61" app:controller="com.motorola.settings.network.SubsidySimUnlockPreferenceController"/>
+</PreferenceScreen>

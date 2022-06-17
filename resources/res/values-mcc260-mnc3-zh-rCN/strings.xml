@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enhanced_4g_lte_mode_title">VoLTE 通话</string>
+    <string name="wfc_disclaimer_location_desc_text">您的位置信息可能会发送给 Google 和网络提供商，以便进行 WLAN 通话</string>
+</resources>

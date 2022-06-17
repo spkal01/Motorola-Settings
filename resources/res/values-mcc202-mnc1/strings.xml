@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enhanced_4g_lte_mode_summary">@string/use_volte_when_available</string>
+    <string name="enhanced_4g_lte_mode_title">@string/enable_volte</string>
+    <string name="wifi_calling">@string/cosmote_wifi_calling</string>
+    <string name="wifi_calling_settings_title">@string/cosmote_wifi_calling</string>
+</resources>

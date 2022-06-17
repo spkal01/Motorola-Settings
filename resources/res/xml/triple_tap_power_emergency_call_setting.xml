@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/triple_press_emergency_call_title" android:key="gesture_triple_press_power_key_emergency_call">
+    <SwitchPreference android:title="@string/triple_press_emergency_call_title" android:key="gesture_switch_enable_press_power_key_emergency_call" android:summary="@string/triple_press_emergency_call_summary" app:allowDividerAbove="true" app:controller="com.motorola.settings.gestures.TripleTapPowerEmergencyCallPrefController"/>
+</PreferenceScreen>
