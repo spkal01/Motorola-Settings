@@ -7,7 +7,7 @@
     <string name="SecTypeWarningAlertDlg_title">Warning</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
-    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_menu_overflow_description">Show options</string>
     <string name="abc_action_mode_done">Done</string>
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_activitychooserview_choose_application">Choose an app</string>
@@ -112,7 +112,7 @@
     <string name="accessibility_dialog_button_cancel">Cancel</string>
     <string name="accessibility_dialog_button_deny">Deny</string>
     <string name="accessibility_dialog_button_stop">Stop</string>
-    <string name="accessibility_disable_animations">Remove animations</string>
+    <string name="accessibility_disable_animations">Remove all animations</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">Adjust how colors display on your device. This can be helpful when you want to:&lt;br/&gt;&lt;br/&gt; &lt;ol&gt; &lt;li&gt;&amp;nbsp;See colors more accurately&lt;/li&gt; &lt;li&gt;&amp;nbsp;Remove colors to help you focus&lt;/li&gt; &lt;/ol&gt;</string>
     <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
     <string name="accessibility_display_inversion_preference_subtitle">Color inversion turns light screens dark.&lt;br/&gt;&lt;br/&gt; Note: &lt;ol&gt; &lt;li&gt; Color inversion also turns dark screens light.&lt;/li&gt; &lt;li&gt; Colors will change in media and images.&lt;/li&gt; &lt;li&gt; Dark theme can be used to display a dark background. Dark theme works with supported apps. Color inversion works on all apps.&lt;/li&gt; &lt;/ol&gt;</string>
@@ -120,7 +120,7 @@
     <string name="accessibility_display_inversion_shortcut_title">Color inversion shortcut</string>
     <string name="accessibility_display_inversion_switch_title">Use color inversion</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
-    <string name="accessibility_ethernet_disconnected">Ethernet disconnected.</string>
+    <string name="accessibility_ethernet_disconnected">Ethernet was disconnected.</string>
     <string name="accessibility_feature_state_off">Off</string>
     <string name="accessibility_feature_state_on">On</string>
     <string name="accessibility_global_gesture_preference_title">Volume key shortcut</string>
@@ -6026,12 +6026,12 @@
     <string name="wifi_settings_title">Wi‑Fi</string>
     <string name="wifi_setup_detail">Network details</string>
     <string name="wifi_setup_wps">Automatic setup (WPS)</string>
-    <string name="wifi_shared">Share with other device users</string>
+    <string name="wifi_shared">Share with other profiles</string>
     <string name="wifi_show_advanced">Advanced options</string>
     <string name="wifi_show_password">Show password</string>
     <string name="wifi_sign_in_button_text">Sign in</string>
     <string name="wifi_signal">Signal strength</string>
-    <string name="wifi_speed">Link speed</string>
+    <string name="wifi_speed">Network speed</string>
     <string name="wifi_ssid">Network name</string>
     <string name="wifi_ssid_hint">Enter the SSID</string>
     <string name="wifi_ssid_is_empty">Ssid field can not be left blank</string>
@@ -6076,7 +6076,7 @@
     <string name="wifi_tether_hidden_network_title">Hide my device</string>
     <string name="wifi_tether_ip_address">IP address:</string>
     <string name="wifi_tether_mac_address">MAC address:</string>
-    <string name="wifi_tether_mac_address_sample">(e.g.)01:22:fe:eh:45:98</string>
+    <string name="wifi_tether_mac_address_sample">(e.g.)00:00:00:00:00:00</string>
     <string name="wifi_tether_mac_exists">MAC Address exists in list!</string>
     <string name="wifi_tether_manage_devices_title">Manage devices</string>
     <string name="wifi_tether_no_devices_connected">No Wi-Fi devices connected</string>

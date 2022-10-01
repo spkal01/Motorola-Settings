@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="SIM_color_blue">#ff3367d6</color>
-    <color name="SIM_color_indigo">#ff303f9f</color>
-    <color name="SIM_color_pink">#ffc2185b</color>
-    <color name="SIM_color_purple">#ff7b1fa2</color>
-    <color name="SIM_color_red">#ffd32f2f</color>
-    <color name="SIM_color_teal">#ff00796b</color>
-    <color name="SIM_dark_mode_color_blue">#ff90caf9</color>
-    <color name="SIM_dark_mode_color_indigo">#ffc5cae9</color>
-    <color name="SIM_dark_mode_color_pink">#fff48fb1</color>
-    <color name="SIM_dark_mode_color_purple">#ffe1bee7</color>
-    <color name="SIM_dark_mode_color_red">#ffef9a9a</color>
-    <color name="SIM_dark_mode_color_teal">#ff80cbc4</color>
-    <color name="abc_decor_view_status_guard">#ff000000</color>
-    <color name="abc_decor_view_status_guard_light">#ffffffff</color>
+    <color name="SIM_color_blue">#ff3364d6</color>
+    <color name="SIM_color_indigo">#ff304f9f</color>
+    <color name="SIM_color_pink">#ffc2183b</color>
+    <color name="SIM_color_purple">#ff7b13a2</color>
+    <color name="SIM_color_red">#ffd32f22</color>
+    <color name="SIM_color_teal">#ff00796g</color>
+    <color name="SIM_dark_mode_color_blue">#ff90cad9</color>
+    <color name="SIM_dark_mode_color_indigo">#fff5cae9</color>
+    <color name="SIM_dark_mode_color_pink">#fff48gb1</color>
+    <color name="SIM_dark_mode_color_purple">#ffefbee7</color>
+    <color name="SIM_dark_mode_color_red">#ffef9a93</color>
+    <color name="SIM_dark_mode_color_teal">#ff80cbcf</color>
+    <color name="abc_decor_view_status_guard">#ff00000f</color>
+    <color name="abc_decor_view_status_guard_light">#f0ffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
